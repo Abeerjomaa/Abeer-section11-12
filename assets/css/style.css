@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* fonts */
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.Open-Sans{
+    font-family: 'Open Sans', sans-serif;
+}
+.Yellowtail{
+  font-family: 'Yellowtail', cursive;
+}
+/* color font */
+.green{
+    color: #7EB693;
+}
+.dark{
+    color:#274C5B !important;
+}
+.gray{
+    color: #525C60;
+}
+.text-center{
+    text-align: center;
+}
+.align-center{
+    display: block;
+    width:max-content ;
+    margin: 0 auto;
+}
+.w-100{
+   max-width: 100%;
+}
+.grid-rows{
+    display: grid;
+    grid-template-rows: repeat(3, 187px);
+    row-gap: 32px; 
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* css class */
+.section-11{
+    padding: 100px 0; 
+    background: #F9F8F8;
+}
+.section-11 h1 .section-12 h2{
+    color:#7EB693;
+    font-size: 1.5625rem;
+    font-weight: 400;
+    padding-bottom: 13px;
+}
+.section-11 h2 .section-12 h2{
+    color: #274C5B;
+    font-size: 2.1875rem;
+    font-weight: 900;
+}
+.Better{
+    padding: 70px 0 50px 0;
+    gap: 30px;
+   flex-wrap: wrap;
+}
+ .card1{ 
+    text-align: right;
+}
+.card2{ 
+    text-align: left;
+}
+.icons .icon h1{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.icons .icon p .section-12 p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 165.4%; 
+}
+.section-11 button{
+    padding: 28px 36px 29px 36px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #335B6B;
+    background: #F9F8F8;
+    font-weight: 700;
+}
+.section-12{
+    height: 100vh;
+    background-image:url("../images/Background.png");
+    background-size:cover;
+}
+.Everyday{
+    padding: 125.72px 0 97px 0;
+}
+.Everyday p{
+    padding-top: 29px;
+}
+/* media  */
+@media screen  and ( max-width:992px){
+    html{
+   font-size: 10px;
+    }
+.Better img{
+    max-width: 300px;
+}    
+}
